@@ -26,7 +26,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <body id="home">
 	<!-- Navbar -->
 	<section>
-		<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+		<nav class="navbar navbar-expand-md fixed-top navbar-dark">
 			<div class="container">
 				<a class="navbar-brand page-scroll" href="#home">Ahmad Yoga<span style="color:rgb(160, 0, 0); margin-left:4px;">.</span></a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: white;">
@@ -126,7 +126,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<img src="<?= $ft['ft'] ?>">
 							<div class="kard-body">
 								<span><?= $ft['icon'] ?><i class="iconify" data-icon="simple-icons:codeigniter"></i></span>
-								<p class="kard-text"><?= $ft['desc'] ?></p>
+								<div class="kard-text">
+									<strong><?= $ft['title'] ?></strong>
+									<p><?= $ft['desc'] ?></p>
+								</div>
 								<a href="<?= $ft['href'] ?>" class="bt"><i class="fas fa-location-arrow"></i> to Web</a>
 							</div>
 						</div>

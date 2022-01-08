@@ -6,9 +6,9 @@ class Welcome extends CI_Controller
 	public function index()
 	{
 		$data['img'] = [
-			['ft' => 'assets/img/project-1.png', 'desc' => 'Web Resep', 'href' => '#', 'icon' => '<i class="fab fa-bootstrap" style="color:rgb(112,16,239)"></i>'],
-			['ft' => 'assets/img/project-2.png', 'desc' => 'Sistem Informasi Akademik', 'href' => '#', 'icon' => '<i class="fab fa-bootstrap" style="color:rgb(112,16,239)"></i><i class="fab fa-vuejs" style="color:rgb(63,178,127)"></i>'],
-			['ft' => 'assets/img/project-3.png', 'desc' => 'Sistem Pelaporan Fasilitas', 'href' => '#', 'icon' => '<i class="fab fa-bootstrap" style="color:rgb(112,16,239)"></i>'],
+			['ft' => 'assets/img/project-1.png', 'title' => 'Web Resep', 'desc' => 'Project kecil yang saya kerjakan untuk tugas kuliah', 'href' => '#', 'icon' => '<i class="fab fa-bootstrap" style="color:rgb(112,16,239)"></i>'],
+			['ft' => 'assets/img/project-2.png', 'title' => 'Sistem Informasi Akademik', 'desc' => 'Project tugas akhir dengan menggunakan FrontEnd Vue JS dan BackEnd REST API dengan CI', 'href' => '#', 'icon' => '<i class="fab fa-bootstrap" style="color:rgb(112,16,239)"></i><i class="fab fa-vuejs" style="color:rgb(63,178,127)"></i>'],
+			['ft' => 'assets/img/project-3.png', 'title' => 'Sistem Pelaporan Fasilitas', 'desc' => 'Project Magang di Kelurahan Sendangguwo dengan menggunakan CI ', 'href' => '#', 'icon' => '<i class="fab fa-bootstrap" style="color:rgb(112,16,239)"></i>'],
 		];
 		$data['i'] = [
 			['name' => 'html', 'icon' => '<i class="fab fa-html5" style="color:rgb(255,71,0)"></i>'],
